@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background-color: #222629;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    color: #86c322;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container_spacing {
+    padding: 0 40px;
+    margin: 60px 0;
+}
